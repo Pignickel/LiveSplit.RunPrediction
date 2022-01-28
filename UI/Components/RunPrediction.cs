@@ -125,15 +125,15 @@ namespace LiveSplit.UI.Components
                 case "Current Comparison":
                     return "Current Pace";
                 case Run.PersonalBestComparisonName:
-                    return "Current Pace";
+                    return "Current Pace" + 95;
                 case BestSegmentsComparisonGenerator.ComparisonName:
-                    return "Best Possible Time";
+                    return "Best Possible Time"+ 95;
                 case WorstSegmentsComparisonGenerator.ComparisonName:
-                    return "Worst Possible Time";
+                    return "Worst Possible Time"+ 95;
                 case AverageSegmentsComparisonGenerator.ComparisonName:
-                    return "Predicted Time";
+                    return "Predicted Time"+ 95;
                 default:
-                    return "Current Pace (" + CompositeComparisons.GetShortComparisonName(comparison) + ")";
+                    return "Current Pace (" + CompositeComparisons.GetShortComparisonName(comparison) + 95 ")";
             }
         }
 
